@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Décensured
 // @namespace   decensuredjvcom
-// @version     0.3.2
+// @version     0.3.3
 // @downloadURL https://github.com/Rand0max/decensured/raw/master/decensured.user.js
 // @updateURL   https://github.com/Rand0max/decensured/raw/master/decensured.meta.js
 // @author      Rand0max
@@ -9,6 +9,8 @@
 // @icon        https://risibank.fr/cache/medias/0/2/209/20968/thumb.png
 // @match       http://www.jeuxvideo.com/forums/*
 // @match       https://www.jeuxvideo.com/forums/*
+// @match       http://www.jeuxvideo.com/recherche/forums/*
+// @match       https://www.jeuxvideo.com/recherche/forums/*
 // @connect     myexternalip.com
 // @grant       GM_getValue
 // @grant       GM_setValue
