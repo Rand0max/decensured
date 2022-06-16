@@ -51,33 +51,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.decensured-option-button {
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
-  line-height: 1.77;
-  background: #0071ff;
-  border-radius: 17%;
-  opacity: 0.5 !important;
-  cursor: pointer;
-}
-.decensured-header-button {
-  display: inline-block;
-  position: relative;
-  margin-left: 2px;
-  width: 1.35rem;
-  height: 1.35rem;
-  line-height: initial;
-  background: #0071ff;
-  border-radius: 50%;
-  opacity: 0.7 !important;
-  cursor: pointer;
-  vertical-align: text-top;
-}
-.decensured-header-button:hover,
-.decensured-option-button:hover {
-  opacity: 1 !important;
-}
 .decensured-button {
   text-transform: uppercase;
   font-weight: 700;
@@ -90,22 +63,51 @@
   border-radius: 0.25rem;
   cursor: pointer;
 }
+.decensured-option-button {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  height: 1.1em;
+  line-height: initial;
+  background: #0071ff;
+  border-radius: 17%;
+  opacity: 0.5 !important;
+  cursor: pointer;
+}
+.decensured-header-button {
+  display: inline-block;
+  position: relative;
+  margin-left: 2px;
+  width: 1.1em;
+  height: 1.1em;
+  line-height: initial;
+  background: #0071ff;
+  border-radius: 50%;
+  opacity: 0.7 !important;
+  cursor: pointer;
+  vertical-align: text-top;
+}
+.decensured-header-button:hover,
+.decensured-option-button:hover {
+  opacity: 1 !important;
+}
 .decensured-display-message::before,
 .decensured-hide-message::before {
-  position: relative;
-  top: -5px;
-  left: 1px;
-  font-size: 0.83rem;
-  color: #fff;
-}
-.decensured-header-button.decensured-display-message::before,
-.decensured-header-button.decensured-hide-message::before {
-  font-size: 1.1rem;
+  font-size: 0.9em;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -10px;
-  margin-left: -9px;
+  margin-top: -0.56em;
+  margin-left: -0.51em;
+}
+.decensured-header-button.decensured-display-message::before,
+.decensured-header-button.decensured-hide-message::before {
+  font-size: 0.8em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.55em;
+  margin-left: -0.5em;
 }
 .decensured-display-message::before {
   content: "\EA31";
