@@ -24,9 +24,13 @@
 
 # Installation
 
-### Étape pour mobile : Il faut d'abord installer le navigateur **Kiwi Browser** (équivalent de Chrome)
+### Étape pour *Android* : Il faut d'abord installer le navigateur **Kiwi Browser** (équivalent de Chrome)
 
 <a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser" target="_blank"><img src="https://kiwibrowser.com/wp-content/uploads/2019/09/cropped-Favicon-512x512-32x32.png" alt="Chrome" width="20"/> Kiwi Browser</a>
+
+### Étape pour *iPhone* : Il faut d'abord installer le navigateur **Insight Browser** (équivalent de Safari)
+
+<a href="https://apps.apple.com/app/apple-store/id1531407280?mt=8" target="_blank"><img src="https://cdn.umso.co/pxvr5mgeg4se/assets/aum444nl.png" alt="Insight" width="20"/> Insight Browser</a>
 
 ### Étape 1 : Installez un gestionnaire d'userscript comme **TamperMonkey**
 
