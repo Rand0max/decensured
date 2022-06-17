@@ -4,8 +4,6 @@
 
 ## Chiffre et masque vos messages afin d'éviter la censure abusive sur les forums JVC.
 
-[Démonstration](https://i.imgur.com/PAuas65.gif)
-
 #### _Vous n'en pouvez plus de vous faire censurer sans raison ?_
 
 #### _Vous n'en pouvez plus de cette "erreur 410" ?_
@@ -14,21 +12,23 @@
 
 **Ce script est fait pour vous !**
 
-# Protection contre le 410 et les modérateurs
+## Aperçu
 
-- Seuls les utilisateurs du script voient vos messages
-- Les autres, y compris la modération, verront des messages insignifiants pour éviter la DDB
-- Webedia est bloqué et leurs modérateurs ne peuvent pas utiliser le script (sélection naturelle)
-- Les utilisateurs du script ne peuvent pas DDB vos messages masqués
-- Les modérateurs et admins verront leur compte bloqué automatiquement s'ils installent Décensured
+<figure style="display:inline-block"><figcaption>Création d'un topic</figcaption><img src="https://i.imgur.com/9wV8VOI.png" alt="Décensured1" width="200"/></figure>
+
+<figure style="display:inline-block"><figcaption>Topic censuré</figcaption><img src="https://i.imgur.com/F7hPjdZ.png" alt="Décensured2" width="200"/></figure>
+
+<figure style="display:inline-block"><figcaption>Topic décensuré</figcaption><img src="https://i.imgur.com/UCQQ9DS.png" alt="Décensured3" width="200"/></figure>
+
+> [Démonstration](https://i.imgur.com/PAuas65.gif)
 
 # Installation
 
-### Étape pour *Android* : Il faut d'abord installer le navigateur **Kiwi Browser** (équivalent de Chrome)
+### Étape pour _Android_ : Il faut d'abord installer le navigateur **Kiwi Browser** (équivalent de Chrome)
 
 <a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser" target="_blank"><img src="https://kiwibrowser.com/wp-content/uploads/2019/09/cropped-Favicon-512x512-32x32.png" alt="Chrome" width="20"/> Kiwi Browser</a>
 
-### Étape pour *iPhone* : Il faut d'abord installer le navigateur **Insight Browser** (équivalent de Safari)
+### Étape pour _iPhone_ : Il faut d'abord installer le navigateur **Insight Browser** (équivalent de Safari)
 
 <a href="https://apps.apple.com/app/apple-store/id1531407280?mt=8" target="_blank"><img src="https://cdn.umso.co/pxvr5mgeg4se/assets/aum444nl.png" alt="Insight" width="20"/> Insight Browser</a>
 
@@ -48,13 +48,81 @@
 
 - Installez **Décensured** en [cliquant ici](https://github.com/Rand0max/decensured/raw/master/decensured.user.js) ou [ici](https://jvscript.fr/script/decensured) puis cliquez sur le bouton "Installer" dans la fenêtre qui s'ouvre
 
-## Mode d'emploi :
+## Mode d'emploi
 
 - Après installation, écrivez votre message normalement.
 - Cliquez sur le bouton bleu **'POST DÉCENSURED'** à la place du bouton "POSTER".
 - Votre message apparaitra en bleu et décensuré pour vous et les utilisateurs du script.
 - Les autres utilisateurs (y compris la modération) ne verront que des messages sans intérêt et générés aléatoirement.
+- Vous pouvez aussi personnaliser vos messages et titres de "camouflages".
 
-Voilà !
+# F.A.Q
 
-_Rand0max_
+<details>
+  <summary><b><i>Comment est-on protégés des modérateurs, des admins et des bots ?</i></b></summary>
+<br>
+<li>Seuls les utilisateurs du script voient vos messages.</li>
+<li>Les autres, y compris la modération/administrateur/bot, verront des messages sans intérêt, ou personnalisés par vous-même.</li>
+<li>Webedia est bloqué par diverses techniques et leurs modérateurs ne peuvent pas utiliser le script.</li>
+<li>Les utilisateurs du script ne peuvent pas DDB vos messages masqués.</li>
+</details>
+
+<br>
+
+<details>
+  <summary><b><i>Pourquoi j'ai été banni en utilisant le script ?</i></b></summary>
+<br>
+<li>Car certains admins ont décidés de bannir sans aucun motif tous les messages et topics qu'ils soupçonnent d'utiliser le script. Ils savent très bien que ça peut tomber sur quelqu'un qui n'est pas concerné, mais vous savez aussi bien que moi qu'il n'est plus possible de discuter d'un sujet aussi innocent soit-il sans risquer un ban ou un 410, script ou non. D'où l'existence de Décensured.</li>
+</details>
+
+<br>
+
+<details>
+  <summary><b><i>Alors comment éviter d'être ban ?</i></b></summary>
+<br>
+<li>Personnalisez les messages de "camouflage" avant de poster avec Décensured.</li>
+<li>Participez un peu au topic de manière innocente.</li>
+<li>Gardez bien le script à jour avec la dernière version, j'améliore régulièrement la technique pour être de plus en plus indétectable.</li>
+<li>Ne parlez pas trop ouvertement du script, diffusez plutôt l'information par message privé.</li>
+<li>Discutez sur des gros topics déjà modérés pour passer inaperçu.</li>
+</details>
+
+<br>
+
+<details>
+  <summary><b><i>Pourquoi le code du script est illisible et non open source ?</i></b></summary>
+<br>
+<li>Pour garantir une sécurité maximum aux utilisateurs et contrer l'offensive de Webedia, le code a été rendu illisible. Cela complique la tâche aux personnes mal intentionnées qui souhaiteraient bloquer l'utilisation du script.</li>
+</details>
+
+<br>
+
+<details>
+  <summary><b><i>Comment être sûr qu'il n'y a pas de code malveillant dans ce cas ?</i></b></summary>
+<br>
+<li>Je suis un forumeur comme vous qui souhaite simplement rendre au forum son ambiance, son énergie et sa liberté d'expression d'antan.</li>
+<li>C'est pour cette raison que j'ai conçu mon premier script <a href="https://github.com/Rand0max/deboucled">Déboucled</a> : afin d'offrir aux utilisateurs un forum qui leur plait et leur ressemble.</li>
+<li>Ceux qui ont suivi l'aventure Déboucled sur le topic officiel savent que je suis resté à l'écoute de la communauté, et que je n'ai jamais introduit la moindre ligne de code malveillante dans mes outils.</li>
+<li>J'ai toujours travaillé sans demander de contrepartie. Mon seul objectif : améliorer votre expérience sur le forum.</li>
+</details>
+
+<br>
+
+<details>
+  <summary><b><i>Peut-on aider ? Partager des idées, des suggestions, des bugs ?</i></b></summary>
+<br>
+<li>La meilleure manière d'aider est de partagez le script et de diffuser le lien de cette page.</li>
+<li>Vous pouvez aussi créer un ticket <a href="https://github.com/Rand0max/decensured/issues">ici</a> si vous le souhaitez.</li>
+</details>
+
+<br>
+
+<details>
+  <summary><b><i>Comment te contacter ?</i></b></summary>
+<br>
+<a href="mailto:rand0max@protonmail.com">rand0max@protonmail.com</a>
+</details>
+
+<br>
+
+**_Rand0max_**
