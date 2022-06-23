@@ -72,7 +72,7 @@
 <details>
   <summary><b><i>Pourquoi ai-je été banni en utilisant le script ?</i></b></summary>
 <br>
-<li>Car certains admins ont décidés de bannir sans aucun motif tous les messages et topics qu'ils soupçonnent d'utiliser le script. Ils savent très bien que ça peut tomber sur quelqu'un qui n'est pas concerné, mais vous savez aussi bien que moi qu'il n'est plus possible de discuter d'un sujet aussi innocent soit-il sans risquer un ban ou un 410, script ou non. D'où l'existence de Décensured.</li>
+<li>Car certains admins ont décidé de bannir sans aucun motif tous les messages et topics qu'ils soupçonnent d'utiliser le script. Ils savent très bien que ça peut tomber sur quelqu'un qui n'est pas concerné, mais vous savez aussi bien que moi qu'il n'est plus possible de discuter d'un sujet aussi innocent soit-il sans risquer un ban ou un 410, script ou non. D'où l'existence de Décensured.</li>
 </details>
 
 <br>
