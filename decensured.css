@@ -26,6 +26,9 @@
   transition-duration: 800ms;
   transition-property: background-color, border-color;
 }
+.decensured-restricted-message {
+  background-color: #fd44443d !important;
+}
 .decensured-decrypted-topic {
   background-color: #4495fd3d !important;
   border-color: var(--jv-text-dark) !important;
