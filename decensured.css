@@ -1,4 +1,5 @@
 .decensured-post-button {
+  display: inline-block !important;
   background: var(--jv-text-primary) !important;
   color: #fff !important;
   line-height: 2rem;
@@ -136,18 +137,35 @@
 .decensured-dice-logo:hover {
   opacity: 1;
 }
+.decensured-restricted-pseudos {
+  display: none;
+  width: 100%;
+  margin-left: 5px;
+}
+.decensured-restricted-pseudos:invalid {
+  border: 1px solid red;
+}
+.decensured-post-container {
+  display: flex;
+  align-items: center;
+}
+.decensured-post-container div {
+  display: none;
+}
 
 /* Toggle slider */
 .decensured-switch {
   position: relative;
   display: inline-block;
   width: 50px;
+  min-width: 50px;
   height: 24px;
   margin: 2px 3px 2px 0px;
 }
 .decensured-switch.little {
   margin-left: 5px;
   width: 40px;
+  min-width: 40px;
   height: 18px;
   vertical-align: middle;
 }
@@ -209,7 +227,7 @@ input:checked + .decensured-toggle-slider.little:before {
   border-radius: 50%;
 }
 .decensured-toggle-title-right {
-  font: bold 10px/10px sans-serif;
+  font: bold 10px/12px sans-serif;
   margin: 0 5px;
   color: var(--jv-text-color);
 }
@@ -218,6 +236,9 @@ input:checked + .decensured-toggle-slider.little:before {
   justify-content: center;
   align-items: center;
   opacity: 0.9;
+}
+.decensured-toggle-wrapper.inline {
+  display: inline-flex;
 }
 
 .jvchat-bloc-message .jvchat-tooltip .decensured-option-button,
