@@ -151,6 +151,7 @@
 .decensured-post-container {
   display: flex;
   align-items: center;
+  row-gap: 0.5em;
 }
 .decensured-post-container div {
   display: none;
@@ -254,4 +255,10 @@ input:checked + .decensured-toggle-slider.little:before {
   visibility: visible;
   cursor: pointer;
   opacity: 1;
+}
+
+@media (max-width: 807px), (min-width: 1000px) and (max-width: 1479px) {
+  .decensured-post-container {
+    flex-wrap: wrap;
+  }
 }
