@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Décensured
 // @namespace   decensuredjvcom
-// @version     0.4.9
+// @version     0.5.0
 // @downloadURL https://github.com/Rand0max/decensured/raw/master/decensured.user.js
 // @updateURL   https://github.com/Rand0max/decensured/raw/master/decensured.meta.js
 // @author      Rand0max
